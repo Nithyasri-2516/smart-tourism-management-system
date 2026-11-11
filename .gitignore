@@ -1,0 +1,22 @@
+@"
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Encoding utf8 .gitignore
